@@ -36,6 +36,7 @@ python run.py --dataset arxiv --model llama-2-7b-chat --model_checkpoint_path /p
 
 The OpenAI model used in the paper, `gpt-3.5-turbo-0301`, is now deprecated. As an alternative, this command performs evaluation with `gpt-4o-mini`:
 ```bash
+export OPENAI_API_KEY=your-openai-api-key
 python run.py --dataset arxiv --model gpt-4o-mini --keyword_model factorsum
 ```
 

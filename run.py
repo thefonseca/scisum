@@ -193,6 +193,7 @@ def run(
             run_id=run_id,
             max_length=max_length,
             max_samples=max_samples,
+            output_dir=output_dir,
             seed=seed,
             **kwargs,
         )
